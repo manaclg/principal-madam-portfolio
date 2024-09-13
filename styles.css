@@ -106,7 +106,7 @@ section{
     align-items: center;
     /* border: 1px solid #ededed; */
     padding: 0 9%;
-    background: url('./images/home2.png')no-repeat;
+    background: url('./images/principal\ madam\ bg.png')no-repeat;
     background-size: cover;
     background-position: center;
 
@@ -315,7 +315,7 @@ section{
 }
 
 .home-imgHover:hover{
-    background: var(--bg-color);
+    /* background: var(--bg-color); */
     opacity: .8;
 }
 
@@ -994,6 +994,10 @@ footer .animate.scroll{
 
 
 @media (max-width: 768px) {
+    .home{
+        background: url('./images/mobile\ bg.png')no-repeat;
+
+    }
     .header{
         background: var(--bg-color);
     }
